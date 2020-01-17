@@ -5,6 +5,19 @@
   top: -100rpx;
 }
 
+
+.image-item {
+  width: 100%;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30rpx;
+  display: block;
+}
+
 .pending-wrap .view-container {
   display: flex;
   justify-content: space-around;
@@ -20,6 +33,7 @@
 .pending-wrap .pending .count {
   color: #000000;
   font-size: 40rpx;
+  margin-bottom: 10rpx;
 }
 
 .pending-wrap .pending .name {
@@ -27,17 +41,6 @@
   font-size: 24rpx;
 }
 
-.image-item {
-  width: 100%;
-}
-
-.title {
-  font-size: 36rpx;
-  font-weight: bold;
-  color: #000000;
-  margin-bottom: 30rpx;
-  display: block;
-}
 
 .meeting-item-wrap .meeting-item {
   font-size: 28rpx;
@@ -48,8 +51,35 @@
   flex-direction: row;
 }
 
-.meeting-item-wrap .meeting-item .meeting-title{
+.meeting-item-wrap .meeting-item .meeting-title {
   color: #666666;
   margin-right: 30rpx;
   display: block;
+}
+
+.process-item-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.process-item-wrap .process-item {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.process-item-wrap .process-url {
+  width: 72rpx;
+  height: 72rpx
+}
+
+.process-item-wrap .process-content {
+  font-size: 24rpx;
+  color: #333333;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }

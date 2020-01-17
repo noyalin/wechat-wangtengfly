@@ -23,7 +23,18 @@
 				</view>
 			</view>
 		</view>
+
+	<view class="view-container-wrap">
+			<view class="view-container padding-30">
+				<text class="title">流程</text>
+				<view class="process-item-wrap">
+					<view class="process-item" wx:for="{{processList}}" wx:key="index">
+						<image class="process-url" src="../../images/work/process/{{index + 1}}.png"></image>
+						<view class="process-content">{{item.title}}</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
 	</view>
-
-
 </view>
