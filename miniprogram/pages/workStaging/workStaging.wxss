@@ -1,0 +1,55 @@
+/* pages/workStaging/workStaging.wxss */
+
+.work-staging {
+  position: relative;
+  top: -100rpx;
+}
+
+.pending-wrap .view-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pending-wrap .pending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pending-wrap .pending .count {
+  color: #000000;
+  font-size: 40rpx;
+}
+
+.pending-wrap .pending .name {
+  color: #666666;
+  font-size: 24rpx;
+}
+
+.image-item {
+  width: 100%;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30rpx;
+  display: block;
+}
+
+.meeting-item-wrap .meeting-item {
+  font-size: 28rpx;
+}
+
+.meeting-item-wrap .meeting-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.meeting-item-wrap .meeting-item .meeting-title{
+  color: #666666;
+  margin-right: 30rpx;
+  display: block;
+}

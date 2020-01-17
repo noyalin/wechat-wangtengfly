@@ -1,0 +1,29 @@
+<!--pages/workStaging/workStaging.wxml-->
+<view>
+	<image class='image-item' src="../../images/work/head.png" mode="widthFix"></image>
+
+	<view class="work-staging">
+		<view class="view-container-wrap pending-wrap">
+			<view class="view-container">
+				<view class="pending" wx:for="{{pendingList}}" wx:key="index">
+					<text class="count">{{item.value > 99 ? '99+' : item.value}}</text>
+					<text class="name">{{item.name}}</text>
+				</view>
+			</view>
+		</view>
+
+		<view class="view-container-wrap meeting">
+			<view class="view-container padding-30">
+				<text class="title">最近会议</text>
+				<view class="meeting-item-wrap">
+					<view class="meeting-item" wx:for="{{meetingList}}" wx:key="index">
+						<text class="meeting-title">{{item.title}}</text>
+						<text class="meeting-content">{{item.content}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+
+</view>
