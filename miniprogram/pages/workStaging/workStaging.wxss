@@ -49,6 +49,7 @@
 .meeting-item-wrap .meeting-item {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10rpx;
 }
 
 .meeting-item-wrap .meeting-item .meeting-title {
